@@ -1,0 +1,118 @@
+<!-- MAIN (Center website) -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>Personal Portfolio Webpage</title>
+			<style{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 321px) {
+}
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 1140px) {
+}
+
+}
+>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- favicon.ico -->
+        <link href="https://image.ibb.co/icGEVA/android-chrome-192x192.png" rel="shortcut icon">
+        <!-- jQuery v3.3.1 -->
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    </head>
+	<body style="background-color:lightpink;">
+
+        <p id="home">.</p>
+        
+       
+
+        <!-- Welcome screen -->
+        <header id="welcome-section">
+            <h1 style="color:red;" align="center">Welcome Portfolio Webpage</h1>
+        </header>
+		<hr>
+		<div class="scrollmenu">
+           <a style="color:darkblue;" href="#home" class="scroll active" id="home-link">Home</a>
+           <a style="color:darkblue;" href="#about" class="scroll" id="about-link">About</a>
+           <a style="color:darkblue;" href="#projects" class="scroll" id="projects-link">Portfolio</a>
+           <a style="color:darkblue;" href="#contact" class="scroll" id="contact-link">Contact</a>
+        </div>
+        <hr>
+        <!-- About me section -->
+        <section class="aboutBox" id="about">
+            <h3 style="color:green;" class="title">About me</h3>
+            <p>Languages known:- <br><br>C++<br><br>JAVA<br><br>PYTHON<br><br>HTML<br><br>CSS</p></section>
+
+        <!-- Portfolio section -->
+        <section class="portfoliBox" id="projects">
+            <h3  style="color:green;"class="title">Portfolio</h3>
+            <div class="container">
+                <!-- Project "A Tribute Page" -->
+                <div class="project-tile">
+                    <p>A Tribute Page</p>
+				    <a href="https://www.sololearn.com"> <p>SOLO LEARN</p></a>  	
+                </div>
+                <!-- Project "Local Weather" -->
+                <div class="project-tile">
+                    <a href="https://www.accuweather.com/en/in/chennai/206671/weather-forecast/206671"> <p>LOCAL WEATHER</p></a>  
+				</div>
+                <!-- Placeholder for future project used to help with alignment -->
+                <div class="project-tile" id="last-item">
+                    <a href="#" target="_blank"><img src="https://i.ibb.co/xY9FHCg/Survey-Form.png" alt="" title="Open project on GitHub"></a>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section -->
+        <section class="contact-link" id="contact">
+        <h3 style="color:green;" class="title">Contact</h3>
+        <p>Helpline No : +1 800-772-1413 </P>		
+
+        <!-- Footer -->
+        <footer style="color:blue";>Learn coding with enjoyment !!!</footer>
+    </body>
+
+</html>
